@@ -132,3 +132,23 @@ select{
   padding: 0.7rem 1.2rem;
   border: 1px solid  rgb(255, 84, 0);
 }
+/* popular section style */
+.popular-section{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8rem;
+
+}
+.popular-text-content{
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  justify-content: space-between;
+}
+.popular-text-content p,
+.popular-text-content li
+{
+  font-size: 16px;
+  line-height: 26px;
+ 
+}
