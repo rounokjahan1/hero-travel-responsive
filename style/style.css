@@ -152,3 +152,54 @@ select{
   line-height: 26px;
  
 }
+/* your destination */
+.your-destination{
+  text-align: center;
+}
+.your-destination h3{
+  color: rgb(19, 19, 24);
+  font-size: 3.50rem;
+  font-weight: 800;
+  line-height: 50px;
+}
+.your-destination-info{
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 24px;
+  margin-bottom: 3rem;
+}
+  
+
+.your-destination img{
+  width: 100%;
+  height: 300px;
+  filter: brightness(70%);
+}
+.row-1,
+.row-2,
+.row-3{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+.row-2{
+  grid-template-columns: .8fr 1.5fr .7fr;
+}
+.row-3{
+ grid-template-columns: .75fr 1.25fr;
+}
+.country-card{
+  position: relative;
+}
+.country{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: white;
+  font-size: 28px;
+  transform: translate(-50% , -50%);
+  font-weight: 700;
+}
